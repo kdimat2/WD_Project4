@@ -3,9 +3,12 @@
 .navbar {
     background-color: #768f88;
     color: #fff;
+    font-family: 'Franklin Gothic', sans-serif;
+    font-weight: 700;
+    font-size: large;
     padding: 10px;
 }
-
+  
 .navbar ul {
     list-style-type: none;
     margin: 0;
@@ -13,38 +16,29 @@
     display: flex;
     justify-content: space-between;
 }
-
+  
 .navbar li {
-     display: inline-flex;
+    display: inline-flex;
 }
-
+  
 .navbar a {
     text-decoration: none;
     color: #fff;
     padding: 10px;
 }
 
-.toggle-button {
-    display: none;
-}
-
-@media (max-width: 768px) {
-    .toggle-button {
-        display: flex;
-    }
-}
-
-/* responsive bar n*/
+/* For screens smaller than 768px */
 @media (max-width: 768px) {
     .navbar ul {
-    flex-direction: column;
-    display: none;
+      flex-direction: column;
+      display: none;
     }
     .navbar .toggle-button {
-    display: block;
-    cursor: pointer;
+      display: block;
+      cursor: pointer;
     }
     .navbar ul.active {
-    display: block;
+      display: block;
     }
 }
+  
