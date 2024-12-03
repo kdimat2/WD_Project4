@@ -24,7 +24,17 @@
     padding: 10px;
 }
 
-/* responsive bar */
+.toggle-button {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .toggle-button {
+        display: flex;
+    }
+}
+
+/* responsive bar n*/
 @media (max-width: 768px) {
     .navbar ul {
     flex-direction: column;
