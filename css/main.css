@@ -1,7 +1,7 @@
 /* Place CSS styles here */
 
 .navbar {
-    background-color: #333;
+    background-color: #768f88;
     color: #fff;
     padding: 10px;
 }
@@ -16,4 +16,25 @@
 
 .navbar li {
      display: inline-flex;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+
+/* responsive bar */
+@media (max-width: 768px) {
+    .navbar ul {
+    flex-direction: column;
+    display: none;
+    }
+    .navbar .toggle-button {
+    display: block;
+    cursor: pointer;
+    }
+    .navbar ul.active {
+    display: block;
+    }
 }
