@@ -1,10 +1,11 @@
 /* Place CSS styles here */
 
+/* Navbar */
 .navbar {
     background-color: #768f88;
-    color: #fff;
-    font-family: 'Franklin Gothic', sans-serif;
-    font-weight: 700;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    font-weight: 800;
     font-size: large;
     padding: 10px;
 }
@@ -14,7 +15,6 @@
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-between;
 }
   
 .navbar li {
@@ -22,12 +22,26 @@
 }
   
 .navbar a {
-    text-decoration: none;
-    color: #fff;
+    text-decoration: underline 20%;
+    color: black;
     padding: 10px;
 }
 
-/* For screens smaller than 768px */
+.navbar a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.navbar a:hover {
+    background-color: #a6b38b;
+    color: rgb(235, 240, 230);
+    border-radius: 30%;
+  }
+
+/* Responsive Navbar */
 @media (max-width: 768px) {
     .navbar ul {
       flex-direction: column;
@@ -42,3 +56,76 @@
     }
 }
   
+.toggle-button {
+    display: none;
+}
+  
+@media (max-width: 768px) {
+     .toggle-button {
+      display: flex;
+    }
+}
+
+/* homepage */
+body {
+    background-color: #768f88;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    font-weight: 800;
+    color: black;
+}
+
+/* contact form */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+  
+input[type=submit] {
+    margin: 0;
+    background-color: #a6b38b;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: #768f88;
+    color: black;
+}
+  
+.container {
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 5px;
+    background-color: rgb(229, 221, 211);
+    padding: 20px;
+}
+
+.h3 {
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    font-weight: 800;
+    color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 35px;
+    background-color: #a6b38b;
+    border-radius: 10px;
+    padding: 0.5px;
+    text-align: center;
+}
+
+.contact-talk {
+    color: black;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 22px;
+    text-align: center;
+}
