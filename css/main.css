@@ -102,6 +102,41 @@ body {
     margin-left: 10px;
 }
 
+/* about page */
+.about-pic img{
+    border-style: none;
+    height: 600px;
+    margin-left: 10px; 
+    top: 190px;
+    position: absolute;
+}
+
+.about-me {
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    background-color: #334d47;
+    border-radius: 10px;
+    margin-right: 30px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    color: white;
+    text-align: center;
+}
+
+.about-description {
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    font-size: 24px;
+    font-weight: 200;
+    margin-right: 30px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    color: white;
+    position: absolute;
+    top: 230px;
+    left: 400px;
+}
+   
 
 /* contact form */
 input[type=text], select, textarea {
