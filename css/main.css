@@ -74,15 +74,11 @@ body {
     color: black;
 }
 
-.homepage-pic {
-    margin-left: 20px;
-    margin-right: 18px;
-}
-
 .homepage-pic img {
     width: 110%;
     border-radius: 8px;
     align-items: center;
+    height: 210px;
 }
 
 .home-name {
@@ -90,7 +86,22 @@ body {
     font-size: 40px;
     font-weight: 800;
     color: white;
+    text-align: center;
+    background-color: #334d47;
+    border-radius: 10px;
+    margin-right: 30px;
+    margin-left: 10px;
 }
+
+.home-description {
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
 
 /* contact form */
 input[type=text], select, textarea {
