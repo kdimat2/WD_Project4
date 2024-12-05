@@ -242,30 +242,182 @@ input[type=submit]:hover {
     height: auto;
 }
 
+/* expanding all those damn images */
 
-/* Container for the image */
 .project-1 {
     text-align: center;
     margin: 20px;
-    position: relative; /* Required for the fullscreen effect */
+    position: relative; 
 }
 
-/* The default image styling */
 .expandable-image-1 {
     max-width: 100%;
     height: auto;
     cursor: pointer;
-    transition: transform 0.3s ease;
+    transition: transform 0.10s ease;
 }
 
-/* When the image is clicked, it will expand */
 .expandable-image-1:active {
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) scale(2); /* Center and enlarge the image */
-    z-index: 1000; /* Ensure it stays on top */
-    background: rgba(0, 0, 0, 0.8); /* Optional: darken background */
-    border-radius: 5px; /* Optional: add some rounding */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Optional: add a shadow */
+    transform: translate(-50%, -50%) scale(1); 
+    z-index: 1000; 
+    background: #485853;
 }
+
+.project-2 {
+    text-align: center;
+    margin: 20px;
+    position: relative; 
+}
+
+.expandable-image-2 {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.10s ease;
+}
+
+.expandable-image-2:active {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1); 
+    z-index: 1000; 
+    background: #485853;
+}
+
+.project-3 {
+    text-align: center;
+    margin: 20px;
+    position: relative; 
+}
+
+.expandable-image-3 {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.10s ease;
+}
+
+.expandable-image-3:active {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1); 
+    z-index: 1000; 
+    background: #485853;
+}
+
+.project-4 {
+    text-align: center;
+    margin: 20px;
+    position: relative; 
+}
+
+.expandable-image-4 {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.10s ease;
+}
+
+.expandable-image-4:active {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1); 
+    z-index: 1000; 
+    background: #485853;
+}
+
+.project-5 {
+    text-align: center;
+    margin: 20px;
+    position: relative; 
+}
+
+.expandable-image-5 {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.10s ease;
+}
+
+.expandable-image-5:active {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1); 
+    z-index: 1000; 
+    background: #485853;
+}
+
+.project-6 {
+    text-align: center;
+    margin: 20px;
+    position: relative; 
+}
+
+.expandable-image-6 {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.10s ease;
+}
+
+.expandable-image-6:active {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1); 
+    z-index: 1000; 
+    background: #485853;
+}
+
+.project-7 {
+    text-align: center;
+    margin: 20px;
+    position: relative; 
+}
+
+.expandable-image-7 {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.10s ease;
+}
+
+.expandable-image-7:active {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1); 
+    z-index: 1000; 
+    background: #485853;
+}
+
+
+.project-8 {
+    text-align: center;
+    margin: 20px;
+    position: relative; 
+}
+
+.expandable-image-8 {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.10s ease;
+}
+
+.expandable-image-8:active {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1); 
+    z-index: 1000; 
+    background: #485853;
+}
+
