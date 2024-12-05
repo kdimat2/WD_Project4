@@ -241,3 +241,31 @@ input[type=submit]:hover {
     max-width: 100%;
     height: auto;
 }
+
+
+/* Container for the image */
+.project-1 {
+    text-align: center;
+    margin: 20px;
+    position: relative; /* Required for the fullscreen effect */
+}
+
+/* The default image styling */
+.expandable-image-1 {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+/* When the image is clicked, it will expand */
+.expandable-image-1:active {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(2); /* Center and enlarge the image */
+    z-index: 1000; /* Ensure it stays on top */
+    background: rgba(0, 0, 0, 0.8); /* Optional: darken background */
+    border-radius: 5px; /* Optional: add some rounding */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Optional: add a shadow */
+}
