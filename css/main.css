@@ -109,6 +109,7 @@ body {
     margin-left: 10px; 
     top: 190px;
     position: absolute;
+    display: flex;
 }
 
 .about-me {
@@ -220,4 +221,23 @@ input[type=submit]:hover {
     font-family:Arial, Helvetica, sans-serif;
     margin-left: 20px;
     margin-right: 20px;
+}
+
+/* portfolio page */
+
+.project-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
 }
